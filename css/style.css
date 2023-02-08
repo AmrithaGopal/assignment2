@@ -1,0 +1,172 @@
+/* author: Amritha Gopal*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+}
+.banner {
+    background-image: url("../images/academy-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.banner1 {
+    text-align: right;
+    padding: 100px;
+}
+.banner2 {
+    padding-top: 15px;
+}
+
+.content1 {
+    margin: -12.3%;
+    background-color: rgba(2, 2, 2, 0.795);
+    color: rgb(7, 181, 184);
+    border: 1px solid red;
+}
+
+.second {
+    min-height: 100vh;
+}
+/* .secondimage {
+    margin-top: 30px;
+} */
+.secondvalue {
+    background-color: #000000;
+    color: #8bf5fa;
+    margin: -8.33%;
+    /* padding: 20px; */
+}
+.secondvalue p::after {
+    content: "}";
+    color: #af120c;
+}
+.secondvalue p::before {
+    content: "{";
+    color: #af120c;
+}
+.second-text {
+    padding: 30px;
+}
+
+.courses {
+    background-image: url("../images/modulebg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh;
+    color: #fff;
+    flex-direction: column;
+    font-size: 18px;
+    gap: 25px;
+    justify-content: center;
+    margin: 0;
+}
+.course-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+.course-border {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px 70px 15px 70px;
+}
+.images {
+    display: flex;
+    /* margin-top: 5%; */
+    flex-wrap: wrap;
+}
+.images-left {
+    background-image: url("../images/testsbg.jpg");
+    width: 50%;
+    height: 400px;
+    padding: 50px;
+}
+.content {
+    display: flex;
+    background-color: rgba(6, 8, 11, 0.7);
+    color: #fff;
+    align-items: center;
+    flex-direction: column;
+    padding: 15%;
+    text-align: center;
+}
+.images-right {
+    background-image: url("../images/intrvwbg.jpg");
+    width: 50%;
+    height: 400px;
+    padding: 50px;
+}
+
+.footer-heading {
+    text-align: center;
+    /* margin-top: 5%; */
+}
+
+.footer-heading h1 {
+    margin-bottom: 5%;
+}
+.footer-heading a {
+    text-decoration: none;
+}
+
+.contact {
+    margin-top: 6%;
+}
+.address-details h2 {
+    margin-bottom: 7%;
+}
+.footer {
+    min-height: 100vh;
+}
+.course-content {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    text-align: center;
+}
+@media screen and (max-width: 576px) {
+    .banner {
+        background-image: none;
+        background-color: #cecaca;
+        width: 100%;
+        margin: 0;
+    }
+    .banner1 {
+        font-size: 25px;
+        text-align: center;
+        padding: 0;
+    }
+    .container-fluid {
+        padding: 0;
+    }
+
+    /* .second {
+        margin-left: auto;
+        margin-right: auto;
+    } */
+    .secondvalue {
+        margin-top: 2%;
+        margin-left: 10px;
+        width: 100%;
+    }
+    .images-left {
+        width: 100%;
+    }
+    .images-right {
+        width: 100%;
+    }
+    .courses,
+    .second,
+    .address-details {
+        padding: 0;
+        margin: 0;
+    }
+}
